@@ -6,7 +6,7 @@ const equalNumbers = []
 
 // genera 5 numeri casuali
 getRandomNumbers(randomNumbers)
-console.log(randomNumbers)
+console.log('numeri generati', randomNumbers)
 
 // mostra i numeri per 30 secondi
 showNumber.innerHTML = `I numeri sono: ${randomNumbers}`
@@ -29,6 +29,7 @@ setTimeout(function(){
         const userNumber = parseInt(window.prompt('Inserisci un numero'))
         userNumbers.push(userNumber)
     }
+    console.log('numeri scelti', userNumbers)
 
     // confrontare i numeri generati con quelli proposti dall'utente
     for (let i = 0; i < randomNumbers.length; i++){
@@ -36,7 +37,7 @@ setTimeout(function(){
             equalNumbers.push(userNumbers[i])
         }
     }
-    console.log(equalNumbers)
+    console.log('numeri indovinati', equalNumbers)
 
     // mostrare quanti e quali numeri sono stati indovinati
     showNumber.classList.remove('d-none')
