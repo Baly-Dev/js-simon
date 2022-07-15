@@ -7,7 +7,6 @@
 * languages: JS, HTML, CSS
 * author: Kevin Baly
 
-<br>
 **Project algorithm**:
 
 * <span class="colour" style="color: rgb(139, 148, 158);">genera 5 numeri casuali</span>
